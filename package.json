@@ -1,0 +1,22 @@
+{
+  "name": "unitn-statistica-chrome-extension",
+  "version": "1.0.0",
+  "description": "A chrome extension for computer science statistic course on UNITN",
+  "private": true,
+  "scripts": {
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euberdeveloper/unitn-statistica-chrome-extension.git"
+  },
+  "author": "Eugenio Vinicio Berretta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euberdeveloper/unitn-statistica-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/euberdeveloper/unitn-statistica-chrome-extension#readme",
+  "devDependencies": {
+    "typescript": "^3.3.4000"
+  }
+}
