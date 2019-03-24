@@ -1,0 +1,21 @@
+{
+    "name": "UniStat",
+    "description": "An extension for the exercises of statistica in UNITN",
+    "version": "1",
+    "author": "Eugenio Vinicio Berretta",
+    "content_scripts": [
+        {
+          "matches": [
+            "http://datascience.maths.unitn.it/ocpu/library/doexercises/www/*"
+          ],
+          "js": ["content/content.js"]
+        }
+    ],
+    "icons": {
+        "16": "images/favicon_16x16.png",
+        "32": "images/favicon_32x32.png",
+        "48": "images/favicon_64x64.png",
+        "128": "images/favicon_128x128.png"
+    },
+    "manifest_version": 2
+}
