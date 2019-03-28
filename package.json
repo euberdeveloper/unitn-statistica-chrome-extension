@@ -4,7 +4,9 @@
   "description": "A chrome extension for computer science statistic course on UNITN",
   "private": true,
   "scripts": {
-    "compile": "tsc"
+    "compile-ts": "tsc",
+    "copy-to-dist": "copyfiles -u 1 src/**/*.html src/**/*.css src/**/*.json src/**/*.js src/**/*.png dist/",
+    "build": "npm run compile-ts && npm run copy-to-dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/euberdeveloper/unitn-statistica-chrome-extension#readme",
   "devDependencies": {
+    "copyfiles": "^2.1.0",
     "typescript": "^3.3.4000"
-  }
+  },
+  "dependencies": {}
 }
